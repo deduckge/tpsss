@@ -1,0 +1,38 @@
+{
+    "name": "cod",
+    "description": "cod",
+    "keywords": ["cod"],
+    "env": {
+        "AA": {
+            "description": "none",
+            "value": "none"
+        },
+        "AUUID": {
+            "description": "UUID",
+            "value": "1972707b-edeb-4354-ab88-191051e25511"
+        },
+        "CADDYIndexPage": {
+            "description": "CaddyIndex",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "CONFIGCADDY": {
+            "description": "CaddyConfig",
+            "value": "https://raw.githubusercontent.com/deduckge/tpsss/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "XrayConfig",
+            "value": "https://raw.githubusercontent.com/deduckge/tpsss/main/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "support:https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "Storefiles",
+            "value": "https://raw.githubusercontent.com/deduckge/tpsss/main/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/deduckge/tpsss",
+    "repository": "https://github.com/deduckge/tpsss",
+    "stack": "container"
+}
